@@ -1,0 +1,50 @@
+
+// Importing fonts
+$light: 'OpenSans-Light';
+$normal: 'OpenSans-Regular';
+$bold: 'OpenSans-Bold';
+$bold2: 'Oswald-Bold';
+$italic: 'OleoScript-Regular';
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('~@/assets/fonts/OpenSans-Regular.ttf');
+  }
+
+@font-face {
+	font-family: OpenSans-Light;
+	src: url('~@/assets/fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url('~@/assets/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: Oswald-Bold;
+	src: url('~@/assets/fonts/Oswald-Bold.ttf');
+}
+@font-face {
+	font-family: OleoScript-Regular;
+	src: url('~@/assets/fonts/OleoScript-Regular.ttf');
+}
+
+$color: (
+	red1: #FC747C,
+	red2: #FD6585,
+	red3: #BC2A52,
+	red4: #A61045,
+	blue1: #1461D8,
+	blue2: #1951E3,
+	blue3: #0D25B9,
+	blue4: #34349C,
+	black: #000,
+	dark1: #333,
+	dark2: #222,
+	white: #FFF,
+	gray1: #F1F1F1,
+	gray2: #EEE,
+	gray3: #ccc,
+	gray4: rgba(0,0,0,.6)
+);

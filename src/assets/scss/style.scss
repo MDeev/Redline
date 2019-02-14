@@ -1,0 +1,26 @@
+
+// ----------------- # Normalize # ----------------------- //
+@import '_normalize';
+// ----------------- # Variables # ----------------------- //
+@import 'variables/_variables';
+// ---------------- # Media Query # ---------------------- //
+@import 'media/_meadia-queries';
+// ------------------ # Helpers # ------------------------ //
+@import 'helpers/_helpers';
+// ------------------ # Mixins # ------------------------ //
+@import 'mixins/_mixins';
+
+body{
+	@include font;
+	@include colors(white, blue4);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&.home, &.single{ background-image: url('~/img/bg-01.svg'); }
+	&.popular{ background-image: url('~/img/bg-02.svg'); }
+	&.latest, &.notfound{ background-image: url('~/img/bg-03.svg'); }
+	&.contact{ background-image: url('~/img/bg-04.svg'); }
+	&.about { background-image: url('~/img/bg-05.svg'); }
+	
+}
